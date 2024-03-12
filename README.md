@@ -20,6 +20,7 @@ Moved to [settings](http://cookiecutter-django.readthedocs.io/en/latest/settings
 
       $ docker-compose -f local.yml up
 
+http://0.0.0.0:8000/api/v1/docs/#/api/api_v1_forecast_retrieve
 
 ### Type checks
 

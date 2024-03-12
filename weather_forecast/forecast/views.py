@@ -9,5 +9,5 @@ class ForecastViewSet(viewsets.ViewSet):
 
     def list(self, request, city=None):
         city_adapter = CityAdapter(city_name=city)
-        city_forecast = city_adapter.get_forecast()
+        city_forecast = city_adapter.get_forecast_by_city()
         return Response(city_forecast)

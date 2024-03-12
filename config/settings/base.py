@@ -336,7 +336,7 @@ SPECTACULAR_SETTINGS = {
     "SERVE_PERMISSIONS": ["rest_framework.permissions.AllowAny"],
 }
 # ------------------------------------------------------------------------------
-OPENWEATHER_API_URL = "https://api.openweathermap.org/data/2.5/onecall"
-OPENWEATHER_API_KEY = "a5a47c18197737e8eeca634cd6acb581"
+OPENWEATHER_API_URL = "https://api.openweathermap.org/data/2.5/forecast"
+OPENWEATHER_API_KEY = "b2f0b5cf1f5213a94a7b4945674c5771"
 
 RESERVAMOS_API_URL = "https://search.reservamos.mx/api/v2"
